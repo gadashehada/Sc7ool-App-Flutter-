@@ -1,0 +1,81 @@
+class ArStrings {
+  static var data = {
+    'home' : 'الرئيسية' ,
+    'about_school' : 'عن المدرسة',
+    'teachers' : 'طاقم المعلمين',
+    'contact_us' : 'تواصل معنا',
+    'login' : 'تسجيل الدخول',
+    'about_app' : 'عن التطبيق',
+    'contact_info' : 'معلومات التواصل' ,
+    'create_account' : 'إنشاء حساب' ,
+    'subjects' : 'المواد' ,
+    'lessons' : 'الدروس' ,
+    'news' : 'الأخبار' ,
+    'add_news' : 'إضافة خبر' ,
+    'add_lesson' : 'إضافة درس' ,
+    'logout' : 'تسجيل الخروج' ,
+    'profile' : 'الملف الشخصي' ,
+    'pdf_reader' : 'ملف' ,
+    'myLessons' : 'دروسي' ,
+
+    'classes' : 'الصفوف' ,
+    'to_contact' : 'للتواصل' , 
+    'name' : 'الاسم',
+    'email' : 'البريد الالكتروني' ,
+    'phone' : 'الجوال' ,
+    'message' : 'الرسالة' , 
+    'password' : 'كلمة المرور' ,
+    'confirm_password' : 'تأكيد كلمة المرور' ,
+    'send' : 'إرسال' ,
+    'havnt_account' : 'ألا تملك حساب ؟' ,
+    'have_account' : 'تمتلك حسابا ؟' , 
+    'news_title' : 'عنوان الخبر' ,
+    'news_description' : 'وصف الخبر' ,
+    'choose_image' : 'اختر صورة' ,
+    'lesson_title' : 'عنوان الدرس' ,
+    'lesson_description' : 'وصف الدرس' ,
+    'choose_pdf' : 'اختر ملف' ,
+    'update' : 'تعديل' ,
+    'comments' : 'التعليقات' ,
+    'add_comment' : 'إضافة تعليق' ,
+    'no_comments' : 'لا يوجد تعليقات' ,
+    'login_to_add_comment' : 'يرجى تسجيل الدخول لإضافة تعليق' ,
+    'create_account_success' : 'تم تسجيل حسابك بنجاح' ,
+    'no' : 'لا' ,
+    'you_need_to_login' : 'تحتاج الى تسجيل الدخول أولا' ,
+
+    'error_launch' : 'حدث خطأ! لا يمكن التحميل' ,
+    'error' : 'حدث خطأ !' ,
+    'no_image_selected' : 'لم يتم اختيار صورة' ,
+    'no_image' : 'لا يوجد صورة' ,
+    'no_file_selected' : 'لم يتم اختيار ملف' ,
+    'choose_class' : 'اختر صف' ,
+    'choose_subject' : 'اختر مادة' ,
+    'choose_kind' : 'اختر نوع الدرس' ,
+    'choose_teacher' : 'اختر معلم',
+
+    'no_subject_to_class' : 'لا يوجد دروس لهذا الصف' ,
+    'title_empty' : 'يرجى إدخال العنوان' ,
+    'name_empty' : 'يرجى إدخال الاسم' ,
+    'description_empty' : 'يرجى إدخال الوصف' ,
+    'email_empty' : 'يرجى إدخال البريد الالكتروني' ,
+    'right_email' : 'يرجى إدخال بريد الكتروني صحيح' ,
+    'pass_empty' : 'يرجى إدخال كلمة المرور' ,
+    'confirm_pass_empty' : 'غير مطابقة لكلمة المرور' ,
+    'phone_empty' : 'يرجى إدخال رقم الجوال' ,
+    'message_empty' : 'يرجى إدخال الرسالة' ,
+    'class' : 'االصف' ,
+    'subject' : 'المادة' ,
+    'kind' : 'النوع' ,
+    'teacher' : 'المعلم' ,
+
+
+    'logo_image' : 'assets/images/subtraction_blue.png' ,
+    'project_name' : 'project name'
+
+  };
+
+  static String get(String key){
+    return data[key];
+  }
+}
