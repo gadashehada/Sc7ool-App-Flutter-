@@ -7,3 +7,5 @@ Application shows school classes, news, subjects for all classes, lessons for al
 * API
 * DART
 * Flutter
+
+![Snipshot](Sc7oolApp.jpg)
